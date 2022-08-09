@@ -78,25 +78,7 @@ class Room{
 //		Output : 20
 	  
 	  
-	/* Q5 
- class Test3{
-  public static void main(String args[]){
-   int n=3;
-   for(int i=1; i<=n;i++){
-	   for(int j=1;j<=n-i;j++){
-   
-      System.out.print(" ");
-   }
-   for(int j=1;j<=i;j++){
-   System.out.print("1");
-   }
-   for(int j=1;j<=i-1;j++){  // to print in odd sequence we need this extra loop..
-	   System.out.print("1");
-   }
-   System.out.println();
-   
-   }
-   }
+	
    }/*
    Q4
     class Rectangle{
@@ -116,5 +98,22 @@ class Room{
 	obj.breadth;
 	}
 	}
-   
+
+ //Q5
+class Ten{
+  
+  public static void main(String args[]){
+  
+	  int n=4;
+  for(int i=1;i<=n;i++){
+  for(int j=1;j<n-i;j++){
+  System.out.print(" ");
+  }
+  for(int j=1;j<=i;j++){
+  System.out.print("1");
+  }
+  System.out.println();
+  }
+  }
+  }
    
